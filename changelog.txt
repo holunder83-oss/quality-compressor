@@ -1,0 +1,38 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2026-11-04
+  Bugfixes:
+    - High-pressure compressor is now 5x5 again, as it should be (oops, 1.0.3 made it 5x4). Its sprite is stretched to fill the full 5x5 area.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2026-11-04
+  Changes:
+    - Fast Quality Buttons (https://mods.factorio.com/mod/fast-quality-buttons) is now an optional dependency: quality shortcut buttons that set the quality of every recipe you pick.
+  Bugfixes:
+    - High-pressure compressor now occupies 5x4 tiles to match its graphics (was 5x5 with an empty row on top).
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2026-11-04
+  Features:
+    - New startup settings "Ratio: <tier>": set the ratio of every target tier (default 8 / 8 / 10 / 12, allowed 2 to 1000), e.g. 40:1 for Legendary to play like Steeper Quality.
+    - New startup settings "Ratio factor: <raw material>": multiplies the ratio of all tiers for one raw material (default 1, scrap 2). Result is rounded up, at least 2.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2026-11-02
+  Features:
+    - New startup setting "Compressor power usage (%)": lowers the power usage of both compressors for every target tier, from 100 % (default, 5 / 20 / 80 / 300 MW) down to 1 %.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-11-02
+  Info:
+    - First public release (beta). Balancing is still being tuned, feedback welcome.
+  Features:
+    - Compressor: turns identical raw materials into one item of the next quality tier, up to Rare.
+    - High-pressure compressor: compresses up to Legendary, needs materials from Aquilo.
+    - Ratios 8:1 (Uncommon, Rare), 10:1 (Epic), 12:1 (Legendary). No randomness, no productivity.
+    - Power depends on the target tier (5 / 20 / 80 / 300 MW). Better quality machines use less power.
+    - Quality modules work like in the base game, capped by the highest tier of the machine.
+    - Raw materials of every planet: iron, copper, stone, coal, uranium, tungsten, calcite, sulfur, holmium plate, scrap, ice. Plastic is compressed in the biochamber and costs nutrients instead of power.
+    - One research per raw material (with the science pack of its planet) and per target tier.
+    - Works on space platforms and with Nomad.
+    - Graphics from CMA Graphics by trentmkelly (CC0).

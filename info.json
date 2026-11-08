@@ -1,0 +1,9 @@
+{
+  "name": "quality-compressor",
+  "version": "1.0.4",
+  "title": "Quality Compressor",
+  "author": "holunder",
+  "description": "Compresses identical raw materials of lower quality into one item of the next quality tier. A predictable alternative to recycler loops, paid for with a lot of power.\n\nVerdichtet gleiche Rohstoffe niedriger Qualität zu einem Item der nächsten Qualitätsstufe. Planbare Alternative zur Recycler-Schleife.",
+  "factorio_version": "2.1",
+  "dependencies": ["base >= 2.1.0", "space-age >= 2.1.0", "quality >= 2.1.0", "? fast-quality-buttons"]
+}
